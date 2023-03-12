@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+$dark: #1f2335;
+$light: #c0caf5;
+$success: #9ece6a;
+$warning: #e0af68;
+$primary: #2ac3de;
+$danger: #f7768e;
+
+
+//Bootstrap Stuff
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-size: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    max-height: 100vh;
+}
+
+.messageInstance {
+    width: calc(100vw - 360px);
+    background-color: rgb(211, 236, 66);
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.Messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 0px;
+}
+
+.chat {
+    flex: 0.75;
+}
+.chat__messages::-webkit-scrollbar {
+    display: none;
+}
+
+.chat__messages {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.MessagesParent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.messageName {
+    transform: scale(60%);
+}
+
+.messageValue {
+    flex-grow: 1;
+}
+
+/* ICONS */
+.versionText .fa-solid {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+.versionText {
+    position: relative;
+    bottom: -4px;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.backIcon {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    left: 5px;
+}

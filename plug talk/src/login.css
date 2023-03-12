@@ -1,0 +1,14 @@
+.login-container {
+    max-height: 100vh;
+}
+.container-fluid span.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-container nav {
+    height: 80px;
+}
+
+.login-container input {
+    max-width: 100%;
+}
